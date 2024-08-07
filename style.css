@@ -1,0 +1,92 @@
+body{
+    background-color: #a2c8cc;
+    margin:0;
+    padding:40px 10px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#block{
+    background-color:#f7cac9;
+    opacity: 0.8;
+    width: 70%;
+    margin: auto auto;
+    padding: 25px 50px 25px 50px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+textarea {
+    margin-right: 10px;
+}
+
+
+#listSpace{
+    background-color:#f8edeb;
+    width: 50%;
+    margin: auto auto;
+    padding: 25px 50px 25px 50px;
+}
+
+ul, li{
+    text-align:left;
+    padding: 5px 5px 5px 5px;
+    list-style-type: square;
+}
+
+#block:hover{
+    background-color: rgb(232, 202, 162);
+}
+
+#listSpace:hover{
+    background-color: #fef5e7;
+}
+
+button{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 100px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #616467;
+    box-shadow: inset 0 0 0 2px #616467;
+    background-color:rgb(148, 168, 113);
+    height: 48px;
+} /*from https://copy-paste-css.com/*/
+
+button:hover{
+    color: #fff;
+    background-color:darksalmon;
+    cursor:pointer;
+}
+
+#deleteAllButton{
+    margin-top: 10px;
+}
+
+ul li i{
+    font-size:14px;
+    float:right;
+}
+
+i:hover{
+    color: #fff;
+    background-color:red;
+    cursor:pointer;
+}
