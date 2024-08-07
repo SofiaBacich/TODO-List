@@ -7,5 +7,5 @@
 <p> El diseño es sencillo, ya que el foco esta puesto en lo funcional y lógica detrás. </p>
 
 
-<img align="center" src="screen1.png">
-<img align="center" src="screen2.png">
+<img align="center" src="Screen1.png">
+<img align="center" src="Screen2.png">
